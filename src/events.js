@@ -40,7 +40,7 @@ exports.listen = function listen (client)
          // -----------------
 
          config = {
-            "botServer": "https://discord.gg/mgNR64R",
+            "botServer": "https://discord.gg/4kQFEQ4Cst",
             "defaultLanguage": "en",
             "inviteURL": auth.invite || "Set this in your .env file / config variables in Heroku",
             "maxChainLen": 5,
@@ -93,8 +93,8 @@ exports.listen = function listen (client)
 
          client.user.setPresence({
             "activity": {
-               "name": "ritabot.gg | !tr help",
-               "type": "PLAYING"
+               "name": "i am a bot| created by adem (broken) !",
+               "type": "helo :)"
             },
             "status": "online"
          });
