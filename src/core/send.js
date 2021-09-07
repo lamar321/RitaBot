@@ -13,7 +13,7 @@ const fn = require("./helpers");
 const db = require("./db");
 const logger = require("./logger");
 const discord = require("discord.js");
-const webHookName = "RITA Messaging System";
+const webHookName = "adem Messaging System";
 const error = require("./error");
 
 // -----------------
@@ -709,7 +709,7 @@ function embedOff (data)
 
                // You can rename 'Webhook' to the name of your bot if you like, people will see if under the webhooks tab of the channel.
                const existingWebhook = webhooks.find((x) => x.name === webHookName);
-               const webHookURL = "https://ritabot.gg/index/images/favicon.png";
+               const webHookURL = "https://cdn.discordapp.com/attachments/861772975808184330/861902493780672512/h-removebg-preview.png";
 
                if (!existingWebhook)
                {
