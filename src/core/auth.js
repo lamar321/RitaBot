@@ -45,7 +45,7 @@ exports.intervals = false;
 // Add donation URL (optional)
 // ----------------------------
 
-exports.donation = "https://opencollective.com/ritabot-project";
+exports.donation = "https://nothing";
 
 // -------------------------
 // Changelog URL (optional)
@@ -61,4 +61,4 @@ exports.dev = process.env.DEBUG;
 
 exports.messagedebug = process.env.MESSAGE_DEBUG;
 
-exports.devID = ['211938703591997451','469824032351584278','536012252831285258','488871621424054284','735457815514185788','827301550249476117'];
+exports.devID = ['837342575782133771'];
